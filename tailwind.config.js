@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       colors:{
         'stiletto': '#333136',
+        'peach':'#E7816B'
+      },
+      margin:{
+        '50p':'50%',
       }
     },
   },
