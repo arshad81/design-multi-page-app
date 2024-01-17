@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <div className="bg-black mt-52 lg:mt-[20rem] relative h-full text-center py-16 px-6 sm:px-10">
       <div className="mx-0 max-w-7xl lg:mx-auto rounded-2xl px-6 sm:px-10 lg:px-20 py-16 bg-peach text-white -translate-y-1/2 lg:-translate-y-full relative lg:flex lg:justify-between lg:items-center lg:text-start">
-        <img alt="image" src={footerBg} className="absolute inset-0 h-full"></img>
+        <img alt="image alt text" src={footerBg} className="absolute inset-0 h-full"></img>
         <div>
           <p className="text-3xl font-medium lg:w-1/2">
             Let’s talk about your project
@@ -31,7 +31,7 @@ export default function Footer() {
       <div className=" text-white -mt-32 sm:-mt-14 lg:-mt-40 md:max-w-7xl mx-auto lg:-translate-y-1/4">
         <div className="md:flex justify-between items-center">
           <Link to="/">
-            <img alt="image" className="w-56 h-auto mx-auto md:mx-0" src={logo}></img>
+            <img alt="image alt text" className="w-56 h-auto mx-auto md:mx-0" src={logo}></img>
           </Link>
           <ul className="my-10 md:m-0 md:flex justify-between items-center md:gap-10">
             <li className="uppercase my-8 text-sm hover:underline underline-offset-4">

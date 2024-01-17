@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
-  BrowserRouter,
-  Routes,
+  // BrowserRouter,
+  // Routes,
   Route,
   createBrowserRouter,
   RouterProvider,
-  Link,
-  ScrollRestoration
+  // Link,
+  // ScrollRestoration
 } from "react-router-dom";
 import "./index.css";
 import App from "./App";

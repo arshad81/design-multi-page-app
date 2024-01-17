@@ -1,5 +1,5 @@
 import Navbar from "../components/header";
-import DescriptionCard from "../components/descriptionCard";
+//  import DescriptionCard from "../components/descriptionCard";
 import AboutUsCard from "../components/aboutUsCard";
 import AboutUsIntro from "../components/aboutUsintro";
 import Location from "../components/location";
