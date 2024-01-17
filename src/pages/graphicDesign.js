@@ -10,7 +10,7 @@ import science from "../assets/graphic-design/desktop/image-science.jpg";
 import CategoryCard from "../components/categoryCard.js";
 // -- Category Card images
 import mobileWebDesign from "../assets/home/mobile/image-web-design.jpg";
-import mobileGraphicDesign from "../assets/home/mobile/image-graphic-design.jpg";
+import mobileAppDesign from "../assets/home/mobile/image-app-design.jpg";
 import Footer from "../components/footer";
 
 export default function GraphicDesign() {
@@ -51,12 +51,13 @@ export default function GraphicDesign() {
             </div>
             <div className="lg:grid lg:grid-cols-2 gap-8">
               <div className="my-6">
-                <CategoryCard title="Web Design" image={mobileWebDesign} />
+                <CategoryCard title="Web Design" image={mobileWebDesign} path="/webdesign" />
               </div>
               <div className="my-6">
                 <CategoryCard
-                  title="Graphic Design"
-                  image={mobileGraphicDesign}
+                  title="App Design"
+                  image={mobileAppDesign}
+                  path="/appdesign"
                 />
               </div>
             </div>

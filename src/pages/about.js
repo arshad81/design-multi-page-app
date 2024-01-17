@@ -38,6 +38,7 @@ export default function About() {
         />
         <div className="md:my-32">
           <AboutUsCard
+            isRight = {false}
             mobileImage={imageWorldClassMobile}
             tabImage={imageWorldClassTab}
             desktopImage={imageWorldClassDesktop}
@@ -58,6 +59,7 @@ export default function About() {
           </div>
         </div>
         <AboutUsCard
+          isRight = {true}
           mobileImage={realDealMobile}
           tabImage={realDealTab}
           desktopImage={realDealDesktop}

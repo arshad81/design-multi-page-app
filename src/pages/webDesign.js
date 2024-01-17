@@ -75,12 +75,17 @@ export default function WebDesign() {
             </div>
             <div className="lg:grid lg:grid-cols-2 gap-8">
               <div className="my-6">
-                <CategoryCard title="App Design" image={mobileAppDesign} />
+                <CategoryCard
+                  title="App Design"
+                  image={mobileAppDesign}
+                  path="/appdesign"
+                />
               </div>
               <div className="my-6">
                 <CategoryCard
                   title="Graphic Design"
                   image={mobileGraphicDesign}
+                  path="/graphicdesign"
                 />
               </div>
             </div>

@@ -7,6 +7,7 @@ module.exports = {
         'stiletto': '#333136',
         'peach':'#E7816B',
         'light-peach':"#fdf3f0",
+        'secondary-peach':'#FFAD9B'
       },
       margin:{
         '50p':'50%',

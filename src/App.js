@@ -27,16 +27,24 @@ function App() {
       <header className="App-header sm:px-10 max-w-7xl mx-auto">
         <Navbar />
       </header>
+      <IndexHero />
       <div className="sm:px-10 max-w-7xl mx-auto">
-        <IndexHero />
         <div className="px-6 md:px-0">
           <div className="my-32 lg:flex lg:items-stretch lg:justify-between lg:gap-6">
             <div className="my-6 lg:w-1/2">
-              <CategoryCard title="Web Design" image={mobileWebDesign} path="/webdesign" />
+              <CategoryCard
+                title="Web Design"
+                image={mobileWebDesign}
+                path="/webdesign"
+              />
             </div>
             <div className="lg:w-1/2">
               <div className="my-6">
-                <CategoryCard title="App Design" image={mobileAppDesign} path="/appdesign"/>
+                <CategoryCard
+                  title="App Design"
+                  image={mobileAppDesign}
+                  path="/appdesign"
+                />
               </div>
               <div className="my-6">
                 <CategoryCard

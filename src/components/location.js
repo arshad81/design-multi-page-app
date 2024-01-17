@@ -9,9 +9,9 @@ export default function Location(props) {
       </div>
       <div className="mt-12">
         <p className="uppercase text-xl tracking-[5px] mb-8">{props.title}</p>
-        <btn className="mt-8 bg-peach text-white px-5 py-4 rounded-lg block w-fit mx-auto">
+        <button className="mt-8 bg-peach text-white px-5 py-4 rounded-lg block w-fit mx-auto hover:bg-secondary-peach hover:text-white ">
           See Location
-        </btn>
+        </button>
       </div>
     </div>
   );
