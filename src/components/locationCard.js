@@ -1,6 +1,6 @@
 export default function LocationCard(props) {
   return (
-    <div className="lg:flex md:justify-between md:gap-8">
+    <div id={props.id} className="lg:flex md:justify-between md:gap-8 scroll-m-3">
       <img
         className="md:rounded-xl w-full md:hidden"
         src={props.mobileImage}

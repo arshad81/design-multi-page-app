@@ -24,7 +24,7 @@ import uk from "../assets/shared/desktop/illustration-united-kingdom.svg";
 
 export default function About() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <header className="App-header sm:px-10 max-w-7xl mx-auto">
         <Navbar />
       </header>
@@ -49,13 +49,13 @@ export default function About() {
         </div>
         <div className="my-32 lg:flex items-center justify-around">
           <div className="mb-12 lg:m-0">
-            <Location image={canada} title="Canada" />
+            <Location image={canada} title="Canada" target="canada"/>
           </div>
           <div className="my-12 lg:m-0">
-            <Location image={australia} title="Australia" />
+            <Location image={australia} title="Australia" target="australia" />
           </div>
           <div className="mt-12 lg:m-0">
-            <Location image={uk} title="United Kingdom" />
+            <Location image={uk} title="United Kingdom" target="uk" />
           </div>
         </div>
         <AboutUsCard

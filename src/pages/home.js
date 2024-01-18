@@ -23,7 +23,7 @@ import IndexHero from "../components/indexHero.js";
 
 function Home() {
   return (
-    <div className="App bg-white ">
+    <div className="App bg-white scroll-smooth">
       <header className="App-header sm:px-10 max-w-7xl mx-auto">
         <Navbar />
       </header>

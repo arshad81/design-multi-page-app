@@ -7,7 +7,7 @@ export default function CategoryCard(props) {
         <p className="uppercase my-1.5 text-3xl md:text-4xl font-medium tracking-[1.4px] z-10">{props.title}</p>
         <span className="flex items-center justify-center my-1.5 gap-4 z-10">
           <p className="uppercase text-base font-medium tracking-[5px]">View Projects</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 stroke-[4px] h-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-3 stroke-[4px] h-auto">
             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
           </svg>
         </span>

@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
-  // BrowserRouter,
-  // Routes,
+  BrowserRouter,
+  Routes,
   Route,
   createBrowserRouter,
   RouterProvider,
@@ -18,53 +18,22 @@ import reportWebVitals from "./reportWebVitals";
 import About from "./pages/about";
 import Location from "./pages/location";
 import ContactUs from "./pages/contactUs";
+import ScrollToTop from "./components/scrollToTop";
 
 export default function Index() {
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route index element={<App/>} />
-    //     <Route path='webdesign' element={<WebDesign/>} />
-    //     <Route path='appdesign' element={<AppDesign/>} />
-    //     <Route path='graphicdesign' element={<GraphicDesign/>} />
-    //     <Route path='about' element={<About/>}/>
-    //     <Route path='location' element={<Location/>}/>
-    //     <Route path='contactUs' element={<ContactUs/>}/>
-    //   </Routes>
-    // </BrowserRouter>
-    <RouterProvider
-      router={
-        createBrowserRouter([
-        {
-          path: "/",
-          element: <App />,
-        },
-        {
-          path: "/webdesign",
-          element: <WebDesign />,
-        },
-        {
-          path: "appdesign",
-          element: <AppDesign />,
-        },
-        {
-          path: "graphicsdesign",
-          element: <GraphicDesign />,
-        },
-        {
-          path: "about",
-          element: <About />,
-        },
-        {
-          path: "location",
-          element: <Location />,
-        },
-        {
-          path: "contactus",
-          element: <ContactUs />,
-        },
-      ])}
-    />
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route index element={<App />} />
+        <Route path="webdesign" element={<WebDesign />} />
+        <Route path="appdesign" element={<AppDesign />} />
+        <Route path="graphicdesign" element={<GraphicDesign />} />
+        <Route path="about" element={<About />} />
+        <Route path="location" element={<Location />} />
+        <Route path="contactus" element={<ContactUs />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

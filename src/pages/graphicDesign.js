@@ -15,7 +15,7 @@ import Footer from "../components/footer";
 
 export default function GraphicDesign() {
   return (
-    <div className="App bg-white ">
+    <div className="App bg-white scroll-smooth">
       <div className="max-w-7xl mx-auto">
         <header className="App-header sm:px-10">
           <Navbar />
